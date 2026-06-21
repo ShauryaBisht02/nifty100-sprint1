@@ -1,0 +1,12 @@
+file_name,table_name,rows_loaded,rejected_rows,runtime_sec,status,error
+companies.xlsx,companies,92,0,0.013,SUCCESS,
+missing_companies,companies,8,0,0.007,SUCCESS,
+profitandloss.xlsx,profit_and_loss,1263,0,0.028,SUCCESS,
+balancesheet.xlsx,balance_sheet,1225,0,0.019,SUCCESS,
+cashflow.xlsx,cash_flow,1145,7,0.02,SUCCESS,
+documents_group,documents,1621,0,0.012,SUCCESS,
+sectors.xlsx,sectors,92,0,0.009,SUCCESS,
+stock_prices.xlsx,stock_prices,5520,0,0.034,SUCCESS,
+market_cap.xlsx,market_cap,552,0,0.012,SUCCESS,
+financial_ratios.xlsx,financial_ratios,1065,0,0.019,SUCCESS,
+peer_groups.xlsx,peer_groups,56,0,0.007,SUCCESS,

@@ -1,0 +1,84 @@
+
+=== profitandloss.xlsx (header=1) ===
+['id', 'company_id', 'year', 'sales', 'expenses', 'operating_profit', 'opm_percentage', 'other_income', 'interest', 'depreciation', 'profit_before_tax', 'tax_percentage', 'net_profit', 'eps', 'dividend_payout']
+   id company_id      year  ...  net_profit   eps  dividend_payout
+0  61        ABB  Dec 2012  ...         145  68.0             25.0
+1  62        ABB  Mar 2014  ...         198  93.0             25.0
+
+[2 rows x 15 columns]
+
+=== balancesheet.xlsx (header=1) ===
+['id', 'company_id', 'year', 'equity_capital', 'reserves', 'borrowings', 'other_liabilities', 'total_liabilities', 'fixed_assets', 'cwip', 'investments', 'other_asset', 'total_assets']
+    id company_id      year  ...  investments  other_asset  total_assets
+0  136        ABB  Dec 2012  ...            0          798           907
+1  137        ABB  Mar 2014  ...            0         1040          1139
+
+[2 rows x 13 columns]
+
+=== cashflow.xlsx (header=1) ===
+['id', 'company_id', 'year', 'operating_activity', 'investing_activity', 'financing_activity', 'net_cash_flow']
+   id company_id    year  ...  investing_activity  financing_activity  net_cash_flow
+0  37        TCS  Mar-13  ...             -6038.0             -5729.0         -152.0
+1  38        TCS  Mar-14  ...             -9452.0             -5673.0         -374.0
+
+[2 rows x 7 columns]
+
+=== documents.xlsx (header=1) ===
+['id', 'company_id', 'Year', 'Annual_Report']
+   id company_id  Year                                      Annual_Report
+0   1        ABB  2024  https://www.bseindia.com/xml-data/corpfiling/A...
+1   2        ABB  2023  https://www.bseindia.com/xml-data/corpfiling/A...
+
+=== analysis.xlsx (header=1) ===
+['id', 'company_id', 'compounded_sales_growth', 'compounded_profit_growth', 'stock_price_cagr', 'roe']
+   id company_id  ...        stock_price_cagr                   roe
+0   1   HDFCBANK  ...       10 Years:     15%     10 Years:     17%
+1  10    SBILIFE  ...       5 Years:       8%  5 Years          14%
+
+[2 rows x 6 columns]
+
+=== prosandcons.xlsx (header=1) ===
+['id', 'company_id', 'pros', 'cons']
+   id  ...                                           cons
+0   1  ...  Stock is trading at 2.76 times its book value
+1   2  ...       Company has low interest coverage ratio.
+
+[2 rows x 4 columns]
+
+=== sectors.xlsx (header=0) ===
+['id', 'company_id', 'broad_sector', 'sub_sector', 'index_weight_pct', 'market_cap_category']
+   id  company_id  ... index_weight_pct market_cap_category
+0   1         ABB  ...             0.81           Large Cap
+1   2  ADANIENSOL  ...             0.65           Large Cap
+
+[2 rows x 6 columns]
+
+=== stock_prices.xlsx (header=0) ===
+['id', 'company_id', 'date', 'open_price', 'high_price', 'low_price', 'close_price', 'volume', 'adjusted_close']
+   id company_id        date  ...  close_price    volume  adjusted_close
+0   1        ABB  2020-01-01  ...      1964.30  26184368         1964.30
+1   2        ABB  2020-02-01  ...      2165.21   1668316         2165.21
+
+[2 rows x 9 columns]
+
+=== market_cap.xlsx (header=0) ===
+['id', 'company_id', 'year', 'market_cap_crore', 'enterprise_value_crore', 'pe_ratio', 'pb_ratio', 'ev_ebitda', 'dividend_yield_pct']
+   id company_id  year  ...  pb_ratio  ev_ebitda  dividend_yield_pct
+0   1        ABB  2019  ...     14.26      22.84                0.84
+1   2        ABB  2020  ...     13.03      24.93                3.90
+
+[2 rows x 9 columns]
+
+=== financial_ratios.xlsx (header=0) ===
+['id', 'company_id', 'year', 'net_profit_margin_pct', 'operating_profit_margin_pct', 'return_on_equity_pct', 'debt_to_equity', 'interest_coverage', 'asset_turnover', 'free_cash_flow_cr', 'capex_cr', 'earnings_per_share', 'book_value_per_share', 'dividend_payout_ratio_pct', 'total_debt_cr', 'cash_from_operations_cr']
+   id company_id  ... total_debt_cr  cash_from_operations_cr
+0   1        ABB  ...             0                    101.0
+1   2        ABB  ...             0                    155.0
+
+[2 rows x 16 columns]
+
+=== peer_groups.xlsx (header=0) ===
+['id', 'peer_group_name', 'company_id', 'is_benchmark']
+   id peer_group_name company_id  is_benchmark
+0   1   Private Banks   HDFCBANK          True
+1   2   Private Banks  ICICIBANK         False
